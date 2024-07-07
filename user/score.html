@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Assessment Results</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, #00bcd4, #9c27b0);
+            color: white;
+        }
+  
+        #animated-text {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #3498db;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            animation: slideIn 1s ease-out;
+            opacity: 0;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+p{font-size:20px;}
+h1{color:red;}
+h2{color:black;}
+p1{font-family: 'Pacifico', cursive, 'Arial', sans-serif;font-size:20px;}
+        header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .assessment-score {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .tips-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            <!--background-color: rgba(255, 255, 255, 0.9);-->
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color:white;
+            background-color:#DDD0C8
+dislay:none;
+        }
+
+        .tip {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <main>
+
+        <div class="assessment-score">
+<br>
+            Your Anxeity Assessment Score: 18(Medium)
+        </div>
+
+       <div class="tips-container">
+
+         <p>Hey xxx!<br>
+I noticed you're dealing with medium anxiety, and I just want to say, you're not alone. It's okay to feel this way, and you've got the power to make things better.
+Remember to celebrate the good days and don't be too hard on yourself during tougher times. Some important things u need to follow in your day to day life</p>
+ <br>  
+<div class="tip">
+                <h2>Acknowledge Your Feelings:</h2>
+                <p>* It's okay to feel medium anxiety. Acknowledge your emotions without judgment.</p>
+            </div>
+
+            <div class="tip">
+                <h2>Celebrate Small Wins</h2>
+                <p>* Celebrate the good days and any small victories. Every positive step counts.</p>
+            </div>
+
+            <div class="tip">
+                <h2>Practice Relaxation Techniques</h2>
+                <p>* Incorporate simple relaxation methods like deep breathing or short breaks when things get stressful.</p>
+            </div>
+            <div class="tip">
+                <h2>Remind Yourself of Strengths</h2>
+                <p>* Reflect on your strengths and past achievements. You've already overcome challenges.</p>
+            </div>
+            
+           <div class="tip">
+                <h2>Maintain Healthy Habits</h2>
+                <p>* Keep up with regular exercise, a balanced diet, and sufficient sleep for overall well-being.</p>
+            </div>
+            <div class="tip">
+                <h2>Set Realistic Goals:</h2>
+                <p>* Establish achievable goals to maintain a sense of accomplishment without added pressure.</p>
+            </div>
+             <div class="tip">
+                <h2>Seek Support:</h2>
+                <p>* Connect with friends or someone you trust. Share your feelings and build a support network.</p>
+            </div> 
+            <div class="tip">
+                <h1>Reminder</h1>
+                <p1>"You're navigating your anxiety journey with strength.
+                Each positive choice and small victory is progress towards a brighter future. Keep going, you're on the right path!"</p1>
+            </div>   
+
+            <<div id="animated-text">
+        <p>Do you need guidance?</p>
+    </div>
+
+        </div>
+    </main>
+</body>
+</html>
+
